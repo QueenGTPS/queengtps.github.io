@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: ice blue;
+    background-color: pink;
 }
 .greetings{
     font-size: 6rem;
@@ -22,7 +22,7 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #f24bbb, 0 0 50px #ff85cc, 0 0 100px #f58ce3;
+        text-shadow: 0 0 12px #ff66cc, 0 0 50px #ff85cc, 0 0 100px #ff66cc;
     }
     10%, 90%{
         color: #111;
