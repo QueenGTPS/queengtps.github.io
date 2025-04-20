@@ -1,3 +1,4 @@
+<script>
 var canvas = document.getElementById("myCanvas");
     var stage = new createjs.Stage(canvas);
 
@@ -16,3 +17,4 @@ var canvas = document.getElementById("myCanvas");
 
     stage.addChild(text);
     stage.update();
+<script>
