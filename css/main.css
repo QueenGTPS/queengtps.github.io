@@ -459,7 +459,7 @@ body {
   animation-delay: 3.5s;
 }
 .flower__grass {
-  --c: #159faa;
+  --c: #aa157d;
   --line-w: 1.5vmin;
   position: absolute;
   bottom: 12vmin;
@@ -686,7 +686,7 @@ body {
 .flower__g-long {
   --w: 2vmin;
   --h: 6vmin;
-  --c: #159faa;
+  --c: #aa157d;
   position: absolute;
   bottom: 10vmin;
   left: -3vmin;
@@ -954,16 +954,16 @@ body {
       transparent,
       var(--dark-color)
     ),
-    linear-gradient(to bottom right, #159faa 50%, transparent 50%, transparent);
+    linear-gradient(to bottom right, #aa1582 50%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(
     to bottom right,
-    #159faa 50%,
+    #aa1582 50%,
     transparent 50%,
     transparent
   );
   mask-image: linear-gradient(
     to bottom right,
-    #159faa 50%,
+    #aa1582 50%,
     transparent 50%,
     transparent
   );
