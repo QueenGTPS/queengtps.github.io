@@ -1155,7 +1155,7 @@ body {
   -webkit-mask-image: linear-gradient(
     to top,
     transparent 40%,
-    #fc0fc0 80%
+    #4ae05e 80%
   ) !important;
 }
 .long-g--1 .leaf--1 {
@@ -1176,7 +1176,7 @@ body {
   -webkit-mask-image: linear-gradient(
     to top,
     transparent 50%,
-    #fc0fc0 80%
+    #4ae05e 80%
   ) !important;
 }
 .long-g--2 .leaf--1,
@@ -1192,7 +1192,7 @@ body {
   -webkit-mask-image: linear-gradient(
     to top,
     transparent 40%,
-    #fc0fc0 80%
+    #4ae05e 80%
   ) !important;
 }
 .long-g--4 {
@@ -1205,7 +1205,7 @@ body {
   -webkit-mask-image: linear-gradient(
     to top,
     transparent 50%,
-    #fc0fc0 80%
+    #4ae05e 80%
   ) !important;
 }
 .long-g--5 {
@@ -1231,7 +1231,7 @@ body {
 .long-g .leaf {
   --w: 15vmin;
   --h: 40vmin;
-  --c: #fc0fc0;
+  --c: #4ae05e;
   position: absolute;
   bottom: 0;
   width: var(--w);
