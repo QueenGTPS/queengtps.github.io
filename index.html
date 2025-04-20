@@ -1,43 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>CreateJS Text Example</title>
-  <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-  <style>
-    body {
-      margin: 0;
-      background: #222;
-    }
-    canvas {
-      display: block;
-      margin: auto;
-      background-color: #222;
-    }
-  </style>
-</head>
-<body>
-  <canvas id="myCanvas" width="600" height="400"></canvas>
+   <!DOCTYPE html>
+<div class="night"></div>
 
-  <script>
-    var canvas = document.getElementById("myCanvas");
-    var stage = new createjs.Stage(canvas);
+<div class="text">
 
-    var w = canvas.width;
-    var h = canvas.height;
+<div class="wrapper">
 
-    var text = new createjs.Text(
-      "the longer I'm with you\n" +
-      "the more I love you",
-      "bold 24px Arial", "#fff"
-    );
+<div class="lid one"></div>
 
-    text.textAlign = "center";
-    text.x = w / 2;
-    text.y = h / 2 - text.getMeasuredLineHeight();
+<div class="lid two"></div>
 
-    stage.addChild(text);
-    stage.update();
-  </script>
-</body>
-</html>
+<div class="envelope"></div>
+
+<div class="letter">
+
+<p>Happy Valentine's Day </p>
+
+</div>
+
+</div>
+
+<div class="buttons">
+
+<button id="openBtn">Open</button>
+
+<button id="closeßtn" style="display: none;">Close</button>
+
+</div>
+
+</div>
