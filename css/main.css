@@ -459,7 +459,7 @@ body {
   animation-delay: 3.5s;
 }
 .flower__grass {
-  --c: #4169e1;
+  --c: #d30000;
   --line-w: 1.5vmin;
   position: absolute;
   bottom: 12vmin;
@@ -686,7 +686,7 @@ body {
 .flower__g-long {
   --w: 2vmin;
   --h: 6vmin;
-  --c: #4169e1;
+  --c: #d30000;
   position: absolute;
   bottom: 10vmin;
   left: -3vmin;
@@ -744,13 +744,13 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #4169e1;
+  border-left: 2vmin solid #d30000;
   background-image: linear-gradient(
     to bottom,
     transparent,
     var(--dark-color) 60%
   );
-  -webkit-mask-image: linear-gradient(to top, transparent 30%, #4169e1 60%);
+  -webkit-mask-image: linear-gradient(to top, transparent 30%, #d30000 60%);
 }
 .flower__g-right--1 {
   -webkit-animation: flower-g-right-ans 2.5s linear infinite;
@@ -837,7 +837,7 @@ body {
   background-image: linear-gradient(
     to top,
     transparent,
-    #4169e1
+    #d30000
     transparent 100%
   );
   position: relative;
@@ -954,16 +954,16 @@ body {
       transparent,
       var(--dark-color)
     ),
-    linear-gradient(to bottom right, #4169e1 50%, transparent 50%, transparent);
+    linear-gradient(to bottom right, #d30000 50%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(
     to bottom right,
-    #4169e1 50%,
+    #d30000 50%,
     transparent 50%,
     transparent
   );
   mask-image: linear-gradient(
     to bottom right,
-    #4169e1 50%,
+    #d30000 50%,
     transparent 50%,
     transparent
   );
@@ -999,8 +999,8 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #4169e1;
-  -webkit-mask-image: linear-gradient(to top, transparent 25%, #4169e1 50%);
+  border-left: 2vmin solid #d30000;
+  -webkit-mask-image: linear-gradient(to top, transparent 25%, #d30000 50%);
   position: relative;
   z-index: 1;
 }
@@ -1017,10 +1017,10 @@ body {
       transparent,
       var(--dark-color) 98%
     ),
-    linear-gradient(to bottom right, #4169e1 45%, transparent 50%, transparent);
+    linear-gradient(to bottom right, #d30000 45%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(
     135deg,
-    #4169e1 40%,
+    #d30000 40%,
     transparent 50%,
     transparent
   );
